@@ -11,9 +11,8 @@ tarefa/
 │   └── mbedtls_config.h    # Configuração mbedTLS (PSK habilitado)
 │
 └── servidor/          # Configuração do broker Mosquitto
-    ├── mosquitto.conf # Broker com dual listener (TLS-PSK + plaintext)
+    ├── mosquitto.conf # Broker com listener TLS-PSK
     ├── psk.txt        # Chaves PSK
-    ├── passwd         # Senhas hash
     └── acl.conf       # Controle de acesso por tópicos
 ```
 ### Credenciais
